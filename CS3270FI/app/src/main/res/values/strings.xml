@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Metronome</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="beat">Beat</string>
+    <string name="tempo">Tempo</string>
+    <string name="startstop">Start/Stop</string>
+    <string name="accent">Accent</string>
+    <string name="eight">Eighth</string>
+    <string name="sixteen">Sixteenth</string>
+    <string name="triplet">Triplet</string>
+    <string name="master">Master</string>
+    <string name="memory">Memory</string>
+    <string name="style">Style</string>
+    <string name="mute">Mute</string>
+    <string name="tap">Tap</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="changeLimits">Change Tempo Min/Max</string>
+    <string name="changeStyle">Change Beat Style</string>
+    <string name="previous">Prev"</string>
+    <string name="next">Next</string>
+    <string name="beatChangeHeader">Select Beat Style</string>
+    <string name="tempoChangeHeader">Select New Tempo Limits</string>
+    <string name="max">Max Tempo Limit</string>
+    <string name="min">Min Tempo Limit</string>
+    <string name="courtesy">Please choose numbers between 1 and 256</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

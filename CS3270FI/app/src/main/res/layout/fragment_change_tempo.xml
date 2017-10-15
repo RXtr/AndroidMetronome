@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.cs3270.robbie.cs3270fi.ChangeTempoFragment"
+              android:gravity="center_horizontal"
+              android:background="@color/colorPrimaryDark"
+              android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tempoChangeHeader"
+        android:id="@+id/textView13"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:paddingBottom="22dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/min"
+        android:id="@+id/textView15"
+        android:layout_gravity="left"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:textColor="@color/colorText"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtMin"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:textColor="@color/colorText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/max"
+        android:id="@+id/textView16"
+        android:layout_gravity="left"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:textColor="@color/colorText"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtMax"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:textColor="@color/colorText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/courtesy"
+        android:id="@+id/textView17"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        android:paddingBottom="40dp"
+        android:paddingTop="20dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:id="@+id/btnSaveTempo"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/btnCancelTempo"/>
+    </LinearLayout>
+
+</LinearLayout>

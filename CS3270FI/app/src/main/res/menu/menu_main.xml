@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.cs3270.robbie.cs3270f1.MainActivity">
+
+    <item
+        android:id="@+id/changeTempoLimits"
+        android:orderInCategory="100"
+        android:title="@string/changeLimits"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/changeStyle"
+        android:orderInCategory="100"
+        android:title="@string/changeStyle"
+        app:showAsAction="never"/>
+</menu>
